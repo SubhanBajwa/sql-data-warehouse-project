@@ -1,4 +1,4 @@
-*/
+/*
 ============================================================================
 
    DDL Script: Create Bronze Tables
@@ -11,7 +11,7 @@ Purpose of Script:
 ============================================================================
 */
 
-USE DataWarehouse;
+--USE DataWarehouse;
 
 IF OBJECT_ID ('bronze.crm_cust_info', 'U') IS NOT NULL
     DROP TABLE bronze.crm_cust_info;
